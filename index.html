@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbuck</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="div1">
+        <img src="Logo-copy.png" alt="Starbuck" id="logo">
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Items</a>
+                </li>
+                <li>
+                    <a href="#">Contact us</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="starbuck">
+        <div class="set">
+            <h2>
+                It's not a Coffee <br> It's a <span>Starbuck</span>
+            </h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex beatae vitae, obcaecati quibusdam laborum
+                distinctio possimus est consectetur dolorum suscipit. Laborum facilis sapiente a, eum iure veritatis sed
+                deleniti voluptatibus culpa corrupti ex explicabo repellendus, temporibus dolorem reprehenderit, quas
+                libero
+                nostrum. Quam non distinctio corporis voluptas eum odio vero quisquam.
+            </p>
+        </div>
+        <div class="img">
+            <img src="img1-copy.png" alt="" class="img1">
+        </div>
+    </div>
+    <ul id="img">
+        <li><img src="img1-copy-3.png" onclick="imgChange('img1-copy.png')"></li>
+        <li><img src="img2-copy.png" onclick="imgChange('img2.png')"></li>
+        <li><img src="img3-copy.png" onclick="imgChange('img3.png')"></li>
+    </ul>
+
+    <script type="text/javascript">
+        function imgChange (anywhere){
+            document.querySelector('.img1').src = anywhere;
+        }
+    </script>
+
+</body>
+
+</html>
